@@ -7,7 +7,7 @@ namespace IMLuartwifiv2 {
 
     //% block
     //% weight=100
-    //% block="IFTTTに送信する|value1 %value1|value2 %value2|value3 %value3"
+    //% block="スプレッドシートに書き込む|value1 %value1|value2 %value2|value3 %value3"
     //% value1.defl="hello"
     //% value2.defl="micro"
     //% value3.defl="bit"

@@ -7,7 +7,7 @@ namespace IMLuartwifiv2 {
 
     //% block
     //% weight=100
-    //% block="IFTTTに送信する|Event %event|Key %key|value1 %value1|value2 %value2|value3 %value3"
+    //% block="IFTTTに送信する|value1 %value1|value2 %value2|value3 %value3"
     //% value1.defl="hello"
     //% value2.defl="micro"
     //% value3.defl="bit"
@@ -58,11 +58,8 @@ namespace IMLuartwifiv2 {
     }
 
     //% block
-    //% block="WiFiを設定する|TX %txPin|RX %rxPin|Baud rate %baudrate|SSID = %ssid|Password = %passwd"
+    //% block="WiFiを設定する"
     //% weight=100    
-    //% txPin.defl=SerialPin.P15
-    //% rxPin.defl=SerialPin.P1
-    //% baudRate.defl=BaudRate.BaudRate115200    export function setupWifi(txPin: SerialPin, rxPin: SerialPin, baudRate: BaudRate, ssid: string, passwd: string) {
     export function setupWifi() {
         let result = 0
         let txPin = SerialPin.P14

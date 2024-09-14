@@ -1,6 +1,7 @@
 /**
  * Custom blocks
  */
+
 //% weight=100 color=#0fbc11 icon="" block="小平３通知"
 namespace IMLuartwifiv2 {
     let isWifiConnected = false

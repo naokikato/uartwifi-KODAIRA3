@@ -66,8 +66,8 @@ namespace IMLuartwifiv2 {
         let txPin = SerialPin.P14
         let rxPin = SerialPin.P8
         let baudRate = BaudRate.BaudRate115200
-        let ssid = "BMOON-1F"
-        let passwd = "2002112100"
+        let ssid = "kogera_giga"
+        let passwd = "kogera_xGN7h"
 
         isWifiConnected = false
 
